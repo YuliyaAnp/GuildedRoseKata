@@ -16,7 +16,7 @@ namespace GuildedRoseKata
          Improvements:
          1. UpdatePropertiesForPeriodOfTime()
          2. Validation of input data (quality for Sulfuras == 80, startin quality for General items <= 50, etc).
-          
+         3. Review strategy algorithms 
          */
 
         public void UpdatePropertiesForOneDay()

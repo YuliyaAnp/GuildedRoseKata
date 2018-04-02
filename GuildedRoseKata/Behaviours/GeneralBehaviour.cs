@@ -16,7 +16,9 @@
             }
 
             if (quality < 0)
+            {
                 quality = 0;
+            }
 
             return new UpdatableProperties(updatableProperties.SellIn - 1, quality);
         }

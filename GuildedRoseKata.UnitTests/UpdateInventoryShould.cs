@@ -17,6 +17,7 @@ namespace GuildedRoseKata.UnitTests
         [TestCase("Test", -2, 0, -1, 0)]
         [TestCase("Test", 1, 0, 2, 0)]
         [TestCase("Aged Brie", 4, 50, 5, 50)]
+        [TestCase("Backstage passes", 4, 50, 5, 50)]
         public void UpdatePropertiesOfItemCorrectly_AfterOneDay(string itemName, int expectedSellIn, int expectedQuality,
                                                                 int inputSellIn, int inputQuality)
         {

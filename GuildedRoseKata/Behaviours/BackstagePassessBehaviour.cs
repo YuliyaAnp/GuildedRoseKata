@@ -21,6 +21,11 @@
                 updatedQuality = updatableProperties.Quality + 3;
             } 
 
+            if (updatedQuality > 50)
+            {
+                updatedQuality = 50;
+            }
+
             return new UpdatableProperties(updatableProperties.SellIn - 1, updatedQuality);
         }
     }
