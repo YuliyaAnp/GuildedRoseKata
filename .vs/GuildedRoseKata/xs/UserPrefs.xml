@@ -1,8 +1,17 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="GuildedRoseKata/Class1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GuildedRoseKata.Tests/UpdateInventoryShould.cs">
     <Files>
-      <File FileName="GuildedRoseKata/Class1.cs" Line="1" Column="1" />
+      <File FileName="GuildedRoseKata.Tests/UpdateInventoryShould.cs" Line="6" Column="32" />
+      <File FileName="GuildedRoseKata/Inventory.cs" Line="17" Column="4" />
+      <File FileName="GuildedRoseKata/Item.cs" Line="7" Column="19" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -10,5 +19,4 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.GuildedRoseKata FirstBuild="True" />
 </Properties>
