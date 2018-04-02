@@ -1,14 +1,15 @@
 ﻿<Properties StartupConfiguration="{85070D5C-C142-4162-A9AE-01A6AE4EC64A}|Unit Tests">
   <MonoDevelop.Ide.ItemProperties.GuildedRoseKata.UnitTests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="GuildedRoseKata/BehaviorDefiner.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GuildedRoseKata/Inventory.cs">
     <Files>
-      <File FileName="GuildedRoseKata.UnitTests/UpdateInventoryShould.cs" Line="16" Column="65" />
-      <File FileName="GuildedRoseKata/Item.cs" Line="1" Column="1" />
-      <File FileName="GuildedRoseKata/Behaviours/BackstagePassessBehaviour.cs" Line="1" Column="37" />
-      <File FileName="GuildedRoseKata/UpdatableProperties.cs" Line="8" Column="31" />
+      <File FileName="GuildedRoseKata.UnitTests/UpdateInventoryShould.cs" Line="18" Column="28" />
+      <File FileName="GuildedRoseKata/Item.cs" Line="17" Column="9" />
+      <File FileName="GuildedRoseKata/Behaviours/BackstagePassessBehaviour.cs" Line="22" Column="15" />
       <File FileName="GuildedRoseKata/BehaviorDefiner.cs" Line="25" Column="1" />
       <File FileName="GuildedRoseKata/Behaviours/AgedBrieBehaviour.cs" Line="1" Column="37" />
-      <File FileName="GuildedRoseKata/Behaviours/GeneralBehaviour.cs" Line="1" Column="37" />
+      <File FileName="GuildedRoseKata/Behaviours/GeneralBehaviour.cs" Line="19" Column="29" />
+      <File FileName="GuildedRoseKata/Behaviours/SulfurasBehaviour.cs" Line="11" Column="1" />
+      <File FileName="GuildedRoseKata/Inventory.cs" Line="15" Column="9" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">

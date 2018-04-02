@@ -4,7 +4,21 @@
     {
         public UpdatableProperties UpdateProperties(UpdatableProperties updatableProperties)
         {
-            return new UpdatableProperties(updatableProperties.SellIn - 1, updatableProperties.Quality - 1);
+            int quality;
+
+            if (updatableProperties.SellIn <= 0)
+            {
+                quality = updatableProperties.Quality - 2;
+            }
+            else
+            {
+                quality = updatableProperties.Quality - 1;
+            }
+
+            if (quality < 0)
+                quality = 0;
+
+            return new UpdatableProperties(updatableProperties.SellIn - 1, quality);
         }
     }
 }
