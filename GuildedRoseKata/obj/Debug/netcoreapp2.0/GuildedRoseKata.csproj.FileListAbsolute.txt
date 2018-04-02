@@ -1,8 +1,0 @@
-/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata/bin/Debug/netcoreapp2.0/GuildedRoseKata.deps.json
-/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata/bin/Debug/netcoreapp2.0/GuildedRoseKata.dll
-/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata/bin/Debug/netcoreapp2.0/GuildedRoseKata.pdb
-/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata/obj/Debug/netcoreapp2.0/GuildedRoseKata.csproj.CoreCompileInputs.cache
-/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata/obj/Debug/netcoreapp2.0/GuildedRoseKata.AssemblyInfoInputs.cache
-/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata/obj/Debug/netcoreapp2.0/GuildedRoseKata.AssemblyInfo.cs
-/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata/obj/Debug/netcoreapp2.0/GuildedRoseKata.dll
-/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata/obj/Debug/netcoreapp2.0/GuildedRoseKata.pdb

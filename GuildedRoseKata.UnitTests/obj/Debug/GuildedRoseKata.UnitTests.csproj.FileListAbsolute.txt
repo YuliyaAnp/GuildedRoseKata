@@ -1,0 +1,15 @@
+/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata.UnitTests/obj/Debug/GuildedRoseKata.UnitTests.csproj.CoreCompileInputs.cache
+/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata.UnitTests/obj/Debug/GuildedRoseKata.UnitTests.csprojResolveAssemblyReference.cache
+/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata.UnitTests/bin/Debug/GuildedRoseKata.UnitTests.dll
+/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata.UnitTests/bin/Debug/GuildedRoseKata.UnitTests.pdb
+/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata.UnitTests/bin/Debug/FluentAssertions.dll
+/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata.UnitTests/bin/Debug/GuildedRoseKata.dll
+/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata.UnitTests/bin/Debug/nunit.framework.dll
+/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata.UnitTests/bin/Debug/System.ValueTuple.dll
+/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata.UnitTests/bin/Debug/GuildedRoseKata.pdb
+/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata.UnitTests/bin/Debug/nunit.framework.xml
+/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata.UnitTests/bin/Debug/System.ValueTuple.xml
+/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata.UnitTests/bin/Debug/FluentAssertions.pdb
+/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata.UnitTests/bin/Debug/FluentAssertions.xml
+/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata.UnitTests/obj/Debug/GuildedRoseKata.UnitTests.dll
+/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata.UnitTests/obj/Debug/GuildedRoseKata.UnitTests.pdb

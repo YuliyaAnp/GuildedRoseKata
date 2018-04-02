@@ -5,16 +5,19 @@ namespace GuildedRoseKata
 {
     public class Inventory
     {
-        public IList<Item> Items { get; }
+        public List<Item> Items { get; }
 
-        public Inventory(IList<Item> items)
+        public Inventory(List<Item> items)
         {
             Items = items;
         }
 
-		public void UpdateProperties()
-		{
-			
-		}
-	}
+        public void UpdateProperties()
+        {
+            foreach (var item in Items)
+            {
+                item.Update();
+            }
+        }
+    }
 }
