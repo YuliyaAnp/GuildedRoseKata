@@ -1,6 +1,6 @@
-﻿namespace GuildedRoseKata
+﻿namespace GuildedRoseKata.Behaviours
 {
-    public class BackstagePassessBehaviour : IUpdateBehaviour
+    public class AgedBrieBehaviour : IUpdateBehaviour
     {
         public UpdatableProperties UpdateProperties(UpdatableProperties updatableProperties)
         {

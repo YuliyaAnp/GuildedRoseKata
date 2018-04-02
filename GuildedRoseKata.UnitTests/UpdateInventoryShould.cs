@@ -12,8 +12,9 @@ namespace GuildedRoseKata.UnitTests
         [TestCase("Sulfuras, Hand of Ragnaros", 0, 80, 0, 80)]
         [TestCase("Backstage passes", 15, 10, 16, 9)]
         [TestCase("Backstage passes", 9, 11, 10, 9)]
+        [TestCase("Backstage passes", 3, 12, 4, 9)]
         public void UpdatePropertiesOfItemCorrectly_AfterOneDay(string itemName, int expectedSellIn, int expectedQuality,
-                                                                       int inputSellIn, int inputQuality)
+                                                                int inputSellIn, int inputQuality)
         {
             var expectedItems = new List<Item>() { new Item(itemName, expectedSellIn, expectedQuality ) };
 

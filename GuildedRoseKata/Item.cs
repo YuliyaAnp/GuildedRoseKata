@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using GuildedRoseKata.Behaviours;
 
 namespace GuildedRoseKata
 {
@@ -9,23 +8,12 @@ namespace GuildedRoseKata
         {
             Name = name;
             ItemUpdatableProperties = new UpdatableProperties(sellIn, quality);
-           // SellIn = sellIn;
-           // Quality = quality;
-            UpdateBehaviour = DefineStrategyBasedOnName(name);
+            UpdateBehaviour = BehaviorDefiner.DefineStrategyBasedOnName(name);
         }
 
         public string Name { get; private set; }
-        //public int SellIn { get; private set; }
-        //public int Quality { get; private set; }
         public UpdatableProperties ItemUpdatableProperties { get; private set; }
         public IUpdateBehaviour UpdateBehaviour { get; }
-
-        private Dictionary<string, IUpdateBehaviour> BehaviourByItemName = new Dictionary<string, IUpdateBehaviour>
-        {
-            { "Aged Brie", new AgedBrieBehaviour() },
-            { "Sulfuras, Hand of Ragnaros", new SulfurasBehaviour() },
-            { "Backstage passes", new BackstagePassessBehaviour() }
-        };
 
         public void UpdateProperties()
         {
@@ -33,12 +21,6 @@ namespace GuildedRoseKata
             ItemUpdatableProperties = updatedProperties;
         }
 
-        private IUpdateBehaviour DefineStrategyBasedOnName(string name)
-        {
-            if (BehaviourByItemName.ContainsKey(name))
-                return BehaviourByItemName[name];
 
-            return new GeneralBehaviour();
-        }
     }
 }

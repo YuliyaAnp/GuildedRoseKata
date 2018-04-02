@@ -1,4 +1,4 @@
-﻿namespace GuildedRoseKata
+﻿namespace GuildedRoseKata.Behaviours
 {
     public class GeneralBehaviour : IUpdateBehaviour
     {

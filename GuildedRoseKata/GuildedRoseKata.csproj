@@ -27,12 +27,16 @@
   <ItemGroup>
     <Compile Include="Inventory.cs" />
     <Compile Include="Item.cs" />
-    <Compile Include="IUpdateBehaviour.cs" />
-    <Compile Include="AgedBrieBehaviour.cs" />
-    <Compile Include="GeneralBehaviour.cs" />
-    <Compile Include="SulfurasBehaviour.cs" />
-    <Compile Include="BackstagePassessBehaviour.cs" />
     <Compile Include="UpdatableProperties.cs" />
+    <Compile Include="Behaviours\AgedBrieBehaviour.cs" />
+    <Compile Include="Behaviours\BackstagePassessBehaviour.cs" />
+    <Compile Include="Behaviours\GeneralBehaviour.cs" />
+    <Compile Include="Behaviours\IUpdateBehaviour.cs" />
+    <Compile Include="Behaviours\SulfurasBehaviour.cs" />
+    <Compile Include="BehaviorDefiner.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Behaviours\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
