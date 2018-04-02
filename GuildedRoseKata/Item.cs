@@ -21,6 +21,8 @@ namespace GuildedRoseKata
         private Dictionary<string, IUpdateBehaviour> BehaviourByItemName = new Dictionary<string, IUpdateBehaviour>
         {
             { "Aged Brie", new AgedBrieBehaviour() },
+            { "Sulfuras, Hand of Ragnaros", new SulfurasBehaviour() },
+            { "Backstage passes", new BackstagePassessBehaviour() }
         };
 
         public void UpdateProperties()

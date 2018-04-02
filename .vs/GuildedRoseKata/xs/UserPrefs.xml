@@ -1,12 +1,10 @@
 ﻿<Properties StartupConfiguration="{85070D5C-C142-4162-A9AE-01A6AE4EC64A}|Unit Tests">
   <MonoDevelop.Ide.ItemProperties.GuildedRoseKata.UnitTests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="GuildedRoseKata.UnitTests/UpdateInventoryShould.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GuildedRoseKata/Item.cs">
     <Files>
-      <File FileName="GuildedRoseKata.UnitTests/UpdateInventoryShould.cs" Line="37" Column="1" />
-      <File FileName="GuildedRoseKata/Item.cs" Line="34" Column="17" />
-      <File FileName="GuildedRoseKata/Inventory.cs" Line="15" Column="46" />
-      <File FileName="GuildedRoseKata/AgedBrieBehaviour.cs" Line="6" Column="6" />
-      <File FileName="GuildedRoseKata/GeneralBehaviour.cs" Line="2" Column="1" />
+      <File FileName="GuildedRoseKata.UnitTests/UpdateInventoryShould.cs" Line="13" Column="52" />
+      <File FileName="GuildedRoseKata/Item.cs" Line="14" Column="10" />
+      <File FileName="GuildedRoseKata/BackstagesBehaviour.cs" Line="13" Column="31" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
@@ -14,7 +12,9 @@
           <Node name="GuildedRoseKata" expanded="True" selected="True">
             <Node name="GuildedRoseKata.UnitTests" expanded="True">
               <Node name="GuildedRoseKata" expanded="True">
-                <Node name="UpdateInventoryShould" expanded="True" />
+                <Node name="UpdateInventoryShould" expanded="True">
+                  <Node name="UpdatePropertiesOfGeneralItemCorrectly_AfterOneDay" expanded="True" />
+                </Node>
               </Node>
             </Node>
           </Node>

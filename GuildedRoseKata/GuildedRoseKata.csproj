@@ -30,6 +30,8 @@
     <Compile Include="IUpdateBehaviour.cs" />
     <Compile Include="AgedBrieBehaviour.cs" />
     <Compile Include="GeneralBehaviour.cs" />
+    <Compile Include="SulfurasBehaviour.cs" />
+    <Compile Include="BackstagePassessBehaviour.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
