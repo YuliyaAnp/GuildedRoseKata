@@ -1,17 +1,10 @@
-﻿using System;
-
-namespace GuildedRoseKata
+﻿namespace GuildedRoseKata
 {
     public class GeneralBehaviour : IUpdateBehaviour
     {
-        public int UpdateQuality(int quality)
+        public UpdatableProperties UpdateProperties(UpdatableProperties updatableProperties)
         {
-            return quality - 1;
-        }
-
-        public int UpdateSellIn(int sellIn)
-        {
-            return sellIn - 1;
+            return new UpdatableProperties(updatableProperties.SellIn - 1, updatableProperties.Quality - 1);
         }
     }
 }

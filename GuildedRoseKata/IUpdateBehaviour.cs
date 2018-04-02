@@ -2,7 +2,6 @@
 {
     public interface IUpdateBehaviour
     {
-        int UpdateSellIn(int sellIn);
-        int UpdateQuality(int quality);
+        UpdatableProperties UpdateProperties(UpdatableProperties updatableProperties);
     }
 }

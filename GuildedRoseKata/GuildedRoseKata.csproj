@@ -32,6 +32,7 @@
     <Compile Include="GeneralBehaviour.cs" />
     <Compile Include="SulfurasBehaviour.cs" />
     <Compile Include="BackstagePassessBehaviour.cs" />
+    <Compile Include="UpdatableProperties.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
