@@ -1,13 +1,12 @@
 ﻿<Properties StartupConfiguration="{85070D5C-C142-4162-A9AE-01A6AE4EC64A}|Unit Tests">
   <MonoDevelop.Ide.ItemProperties.GuildedRoseKata.UnitTests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="GuildedRoseKata/IUpdateBehaviour.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GuildedRoseKata.UnitTests/UpdateInventoryShould.cs">
     <Files>
       <File FileName="GuildedRoseKata.UnitTests/UpdateInventoryShould.cs" Line="37" Column="1" />
-      <File FileName="GuildedRoseKata/Item.cs" Line="28" Column="45" />
-      <File FileName="GuildedRoseKata/Inventory.cs" Line="15" Column="31" />
-      <File FileName="GuildedRoseKata/AgedBrieBehaviour.cs" Line="9" Column="71" />
-      <File FileName="GuildedRoseKata/GeneralBehaviour.cs" Line="4" Column="42" />
-      <File FileName="GuildedRoseKata/IUpdateBehaviour.cs" Line="5" Column="36" />
+      <File FileName="GuildedRoseKata/Item.cs" Line="34" Column="17" />
+      <File FileName="GuildedRoseKata/Inventory.cs" Line="15" Column="46" />
+      <File FileName="GuildedRoseKata/AgedBrieBehaviour.cs" Line="6" Column="6" />
+      <File FileName="GuildedRoseKata/GeneralBehaviour.cs" Line="2" Column="1" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">

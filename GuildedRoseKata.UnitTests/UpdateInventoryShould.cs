@@ -7,27 +7,14 @@ namespace GuildedRoseKata.UnitTests
     [TestFixture]
     public class UpdateInventoryShould
     {
-        [Test]
-        public void UpdatePropertiesOfGeneralItemCorrectly_AfterOneDay()
+        [TestCase("Test", 4, 9, 5, 10)]
+        [TestCase("Aged Brie", 4, 11, 5, 10)]
+        public void UpdatePropertiesOfGeneralItemCorrectly_AfterOneDay(string itemName, int expectedSellIn, int expectedQuality,
+                                                                       int inputSellIn, int inputQuality)
         {
-            var expectedItems = new List<Item>() { new Item("Test", 4, 9 ) };
+            var expectedItems = new List<Item>() { new Item(itemName, expectedSellIn, expectedQuality ) };
 
-            var items = new List<Item>() { new Item("Test", 5, 10) };
-            var inventory = new Inventory(items);
-
-            inventory.UpdatePropertiesForOneDay();
-
-            var actualItems = inventory.Items;
-
-            actualItems.Should().BeEquivalentTo(expectedItems);
-        }
-
-        [Test]
-        public void UpdatePropertiesOfAgedBrieItemCorrectly_AfterOneDay()
-        {
-            var expectedItems = new List<Item>() { new Item("Aged Brie", 4, 11) };
-
-            var items = new List<Item>() { new Item("Aged Brie", 5, 10) };
+            var items = new List<Item>() { new Item(itemName, inputSellIn, inputQuality) };
             var inventory = new Inventory(items);
 
             inventory.UpdatePropertiesForOneDay();
