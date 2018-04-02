@@ -27,6 +27,9 @@
   <ItemGroup>
     <Compile Include="Inventory.cs" />
     <Compile Include="Item.cs" />
+    <Compile Include="IUpdateBehaviour.cs" />
+    <Compile Include="AgedBrieBehaviour.cs" />
+    <Compile Include="GeneralBehaviour.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

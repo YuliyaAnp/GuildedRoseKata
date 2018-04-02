@@ -1,6 +1,6 @@
-/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata/obj/Debug/GuildedRoseKata.csprojResolveAssemblyReference.cache
-/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata/obj/Debug/GuildedRoseKata.csproj.CoreCompileInputs.cache
 /Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata/bin/Debug/GuildedRoseKata.dll
 /Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata/bin/Debug/GuildedRoseKata.pdb
+/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata/obj/Debug/GuildedRoseKata.csproj.CoreCompileInputs.cache
 /Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata/obj/Debug/GuildedRoseKata.dll
 /Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata/obj/Debug/GuildedRoseKata.pdb
+/Users/anpilova/Projects/GuildedRoseKata/GuildedRoseKata/obj/Debug/GuildedRoseKata.csprojResolveAssemblyReference.cache

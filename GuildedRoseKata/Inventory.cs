@@ -12,11 +12,11 @@ namespace GuildedRoseKata
             Items = items;
         }
 
-        public void UpdateProperties()
+        public void UpdatePropertiesForOneDay()
         {
             foreach (var item in Items)
             {
-                item.Update();
+                item.UpdateProperties();
             }
         }
     }

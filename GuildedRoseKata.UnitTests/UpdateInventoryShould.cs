@@ -15,7 +15,7 @@ namespace GuildedRoseKata.UnitTests
             var items = new List<Item>() { new Item("Test", 5, 10) };
             var inventory = new Inventory(items);
 
-            inventory.UpdateProperties();
+            inventory.UpdatePropertiesForOneDay();
 
             var actualItems = inventory.Items;
 
@@ -30,7 +30,7 @@ namespace GuildedRoseKata.UnitTests
             var items = new List<Item>() { new Item("Aged Brie", 5, 10) };
             var inventory = new Inventory(items);
 
-            inventory.UpdateProperties();
+            inventory.UpdatePropertiesForOneDay();
 
             var actualItems = inventory.Items;
 
